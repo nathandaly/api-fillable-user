@@ -1,0 +1,13 @@
+includes:
+
+parameters:
+    level: max
+    paths:
+        - app
+
+    checkMissingIterableValueType: false
+    checkGenericClassInNonGenericObjectType: false
+    reportUnmatchedIgnoredErrors: true
+
+    excludePaths:
+        - ./src/logging/*
